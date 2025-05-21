@@ -14,3 +14,6 @@ Requirements:
 | **REQ‑006** | Der Zustand des Bürstenkopfs (neu, abgenutzt, wechseln) muss simuliert und angezeigt werden.         | Soll      |
 | **REQ‑007** | Ein automatischer Hinweis zum Kopfwechsel soll auftauchen, wenn „Kopfworn ≥ 80 %“ erreicht ist.      | Kann      |
 | **REQ‑008** | Die Simulationsparameter (z. B. Entladekurve, Abnutzungsrate) müssen konfigurierbar sein.            | Kann      |
+
+
+UML Diagramm: 
