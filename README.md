@@ -1,4 +1,4 @@
-# KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t
+# KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensitaet
 
 Requirements: 
 | Req‑ID      | Beschreibung                                                                                         | Priorität |
