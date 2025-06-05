@@ -1,19 +1,38 @@
-# KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensitaet
+# Zahnputzmaschine - Intelligente Putzintensitätssteuerung
 
-## Erste Iteration
+## Projektbeschreibung
+Dieses Projekt implementiert eine intelligente Steuerung für die Putzintensität einer elektrischen Zahnbürste im Rahmen der Software Engineering Vorlesung.
 
-Requirements: 
+### Hauptfeatures
+- 3-stufige Intensitätsregelung (Sanft/Normal/Stark)
+- Ein-Button-Bedienung mit zyklischem Durchschalten
+- Intelligente Drucksensorik mit LED-Warnsystem
+- Automatische Sicherheitsabschaltung
+- Putzzeit-Tracking mit Intervallbenachrichtigungen
 
-| Req‑ID      | Beschreibung                                                                                         | Priorität |
-| ----------- | ---------------------------------------------------------------------------------------------------- | --------- |
-| **REQ‑001** | Das System muss Sensordaten (Druck, Winkel, Vibration) simulieren können.                            | Muss      |
-| **REQ‑002** | Die Software muss die Putzintensität in drei Stufen (leicht, mittel, stark) klassifizieren.          | Muss      |
-| **REQ‑003** | Es muss eine GUI geben, die aktuelle Intensität und Verlauf anzeigt.                                 | Muss      |
-| **REQ‑004** | Das System muss den Batteriestatus der Zahnputzmaschine simulieren (Ladezustand %).                  | Soll      |
-| **REQ‑005** | Bei erreichtem Schwellenwert (< 10 %) muss ein „Batterie niedrig“-Alarm in der GUI angezeigt werden. | Soll      |
-| **REQ‑006** | Der Zustand des Bürstenkopfs (neu, abgenutzt, wechseln) muss simuliert und angezeigt werden.         | Soll      |
-| **REQ‑007** | Ein automatischer Hinweis zum Kopfwechsel soll auftauchen, wenn „Kopfworn ≥ 80 %“ erreicht ist.      | Kann      |
-| **REQ‑008** | Die Simulationsparameter (z. B. Entladekurve, Abnutzungsrate) müssen konfigurierbar sein.            | Kann      |
+## Projektstruktur
+- `docs/` - Projektdokumentation
+- `src/` - Quellcode
+- `uml/` - UML Diagramme
 
+## Entwicklungsumgebung
+- Java 17
+- Maven/Gradle
+- PlantUML für Diagramme
 
-UML Diagramm: 
+## Iterationen
+- [x] Iteration 1: Grundfunktionalität (State Machine)
+- [ ] Iteration 2: Drucksensor-Integration
+- [ ] Iteration 3: Timer und erweiterte Features
+- [ ] Iteration 4: GUI und Statistiken
+
+## Installation & Ausführung
+```bash
+# Build
+./gradlew build
+
+# Tests ausführen
+./gradlew test
+
+# Anwendung starten
+./gradlew run
