@@ -51,7 +51,6 @@ Im GitHub Wiki solltest du folgende Seiten anlegen:
 6. **Meeting-Notes** - Fortschrittsdokumentation
 
 ### 2.2 Requirements Wiki-Seite Template
-```markdown
 # Requirements Specification
 
 ## Funktionale Requirements
