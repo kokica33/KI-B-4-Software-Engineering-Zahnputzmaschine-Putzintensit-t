@@ -36,6 +36,7 @@ Dieses Projekt implementiert eine intelligente Steuerung für die Putzintensitä
 
 # Anwendung starten
 ./gradlew run
+```
 
 ## 2. Wiki Setup für Dokumentation
 
