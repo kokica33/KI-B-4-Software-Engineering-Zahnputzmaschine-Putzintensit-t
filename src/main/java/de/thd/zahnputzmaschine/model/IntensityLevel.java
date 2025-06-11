@@ -3,7 +3,7 @@ package src.main.java.de.thd.zahnputzmaschine.model;
 /**
  * Definiert die verfügbaren Intensitätsstufen der Zahnbürste.
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public enum IntensityLevel {

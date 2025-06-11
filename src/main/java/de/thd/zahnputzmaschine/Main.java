@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Hauptklasse für die Zahnputzmaschinen-Simulation
  * Bietet eine einfache Konsolen-Schnittstelle zur Interaktion
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public class Main {

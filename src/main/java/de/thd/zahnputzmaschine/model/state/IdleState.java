@@ -7,7 +7,7 @@ import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
 /**
  * Idle-Zustand: Zahnbürste ist ausgeschaltet.
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public class IdleState implements BrushState {

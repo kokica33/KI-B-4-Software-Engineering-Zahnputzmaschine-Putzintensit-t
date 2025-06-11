@@ -6,7 +6,7 @@ import src.main.java.de.thd.zahnputzmaschine.model.IntensityLevel;
 /**
  * State Pattern: Interface für alle Zustände der Zahnbürste.
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public interface BrushState {

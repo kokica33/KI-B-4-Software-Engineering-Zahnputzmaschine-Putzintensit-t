@@ -10,7 +10,7 @@ import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
  * und koordiniert Zustandsübergänge.
  * Requirement: RF-002 (Ein-Button-Bedienung)
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public class ToothbrushController {

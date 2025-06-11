@@ -8,7 +8,7 @@ import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
  * Gentle-Zustand: Sanfte Putzintensität (15.000 Schwingungen/min)
  * Requirement: RF-001
  *
- * @author [Dein Name]
+ * @author [Nikola Valchev]
  * @version 1.0 - Iteration 1
  */
 public class GentleState implements BrushState {
