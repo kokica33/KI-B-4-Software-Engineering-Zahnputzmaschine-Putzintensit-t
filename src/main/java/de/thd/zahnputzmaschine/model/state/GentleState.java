@@ -5,33 +5,35 @@ import src.main.java.de.thd.zahnputzmaschine.model.IntensityLevel;
 import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
 
 /**
- * Idle-Zustand: Zahnbürste ist ausgeschaltet.
+ * Gentle-Zustand: Sanfte Putzintensität (15.000 Schwingungen/min)
+ * Requirement: RF-001
  *
  * @author [Dein Name]
  * @version 1.0 - Iteration 1
  */
-public class IdleState implements BrushState {
+public class GentleState implements BrushState {
     private static final SimpleLogger logger = new SimpleLogger(IdleState.class);
 
     @Override
     public void handle(ToothbrushController controller) {
-        logger.info("Button pressed in IDLE state - switching to GENTLE");
-        controller.setState(new GentleState());
+        logger.info("Button pressed in GENTLE state - switching to NORMAL");
+        controller.setState(new NormalState());
     }
 
     @Override
     public IntensityLevel getIntensityLevel() {
-        return IntensityLevel.OFF;
+        return IntensityLevel.GENTLE;
     }
 
     @Override
     public void enter() {
-        logger.info("=== Zahnbürste AUSGESCHALTET ===");
-        System.out.println("Zahnbürste ausgeschaltet");
+        logger.info("=== Entering GENTLE mode ===");
+        System.out.println("Zahnbürste läuft im SANFTEN Modus (15.000 Schwingungen/min)");
+        System.out.println("LED: Grün");
     }
 
     @Override
     public void exit() {
-        logger.info("Leaving IDLE state");
+        logger.info("Leaving GENTLE state");
     }
 }

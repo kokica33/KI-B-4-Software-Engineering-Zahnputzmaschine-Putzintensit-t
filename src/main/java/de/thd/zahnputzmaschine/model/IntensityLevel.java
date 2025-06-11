@@ -1,4 +1,4 @@
-package de.thd.zahnputzmaschine.model;
+package src.main.java.de.thd.zahnputzmaschine.model;
 
 /**
  * Definiert die verfügbaren Intensitätsstufen der Zahnbürste.

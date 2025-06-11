@@ -1,7 +1,7 @@
-package de.thd.zahnputzmaschine.model.state;
+package src.main.java.de.thd.zahnputzmaschine.model.state;
 
-import de.thd.zahnputzmaschine.controller.ToothbrushController;
-import de.thd.zahnputzmaschine.model.IntensityLevel;
+import src.main.java.de.thd.zahnputzmaschine.controller.ToothbrushController;
+import src.main.java.de.thd.zahnputzmaschine.model.IntensityLevel;
 
 /**
  * State Pattern: Interface für alle Zustände der Zahnbürste.
