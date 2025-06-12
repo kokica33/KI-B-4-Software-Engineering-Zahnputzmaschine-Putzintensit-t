@@ -135,5 +135,5 @@ Diese Matrix zeigt die Nachverfolgbarkeit von Requirements über Design, Impleme
 ## Änderungshistorie
 | Datum | Version | Änderung | Autor |
 |-------|---------|----------|--------|
-| 2024-12-XX | 1.0 | Initiale Matrix erstellt | [Dein Name] |
-| 2024-12-XX | 1.1 | Tests hinzugefügt | [Dein Name] |
+| 12-06-2025 | 1.0 | Initiale Matrix erstellt | Nikola Valchev |
+| 12-06-2025 | 1.1 | Tests hinzugefügt | Nikola Valchev |
