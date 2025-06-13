@@ -1,4 +1,4 @@
-package src.main.java.de.thd.zahnputzmaschine.util;
+package de.thd.zahnputzmaschine.util;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

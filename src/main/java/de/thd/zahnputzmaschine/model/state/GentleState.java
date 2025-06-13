@@ -1,14 +1,14 @@
-package src.main.java.de.thd.zahnputzmaschine.model.state;
+package de.thd.zahnputzmaschine.model.state;
 
-import src.main.java.de.thd.zahnputzmaschine.controller.ToothbrushController;
-import src.main.java.de.thd.zahnputzmaschine.model.IntensityLevel;
-import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
+import de.thd.zahnputzmaschine.controller.ToothbrushController;
+import de.thd.zahnputzmaschine.model.IntensityLevel;
+import de.thd.zahnputzmaschine.util.SimpleLogger;
 
 /**
- * Gentle-Zustand: Sanfte Putzintensität (15.000 Schwingungen/min)
+ * Gentle-Zustand: sanfte Putzintensität (15.000 Schwingungen/min)
  * Requirement: RF-001
  *
- * @author [Nikola Valchev]
+ * @author Nikola Valchev
  * @version 1.0 - Iteration 1
  */
 public class GentleState implements BrushState {

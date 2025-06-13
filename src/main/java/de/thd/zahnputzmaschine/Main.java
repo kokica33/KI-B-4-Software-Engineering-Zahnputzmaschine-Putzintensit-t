@@ -1,13 +1,13 @@
-package src.main.java.de.thd.zahnputzmaschine;
+package de.thd.zahnputzmaschine;
 
-import src.main.java.de.thd.zahnputzmaschine.controller.ToothbrushController;
+import de.thd.zahnputzmaschine.controller.ToothbrushController;
 import java.util.Scanner;
 
 /**
  * Hauptklasse für die Zahnputzmaschinen-Simulation
- * Bietet eine einfache Konsolen-Schnittstelle zur Interaktion
+ * bietet eine einfache Konsolen-Schnittstelle zur Interaktion
  *
- * @author [Nikola Valchev]
+ * @author Nikola Valchev
  * @version 1.0 - Iteration 1
  */
 public class Main {

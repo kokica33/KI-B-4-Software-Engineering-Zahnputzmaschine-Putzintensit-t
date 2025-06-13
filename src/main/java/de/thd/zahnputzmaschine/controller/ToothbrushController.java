@@ -1,9 +1,9 @@
-package src.main.java.de.thd.zahnputzmaschine.controller;
+package de.thd.zahnputzmaschine.controller;
 
-import src.main.java.de.thd.zahnputzmaschine.model.IntensityLevel;
-import src.main.java.de.thd.zahnputzmaschine.model.state.BrushState;
-import src.main.java.de.thd.zahnputzmaschine.model.state.IdleState;
-import src.main.java.de.thd.zahnputzmaschine.util.SimpleLogger;
+import de.thd.zahnputzmaschine.model.IntensityLevel;
+import de.thd.zahnputzmaschine.model.state.BrushState;
+import de.thd.zahnputzmaschine.model.state.IdleState;
+import de.thd.zahnputzmaschine.util.SimpleLogger;
 
 /**
  * Controller für die Zahnbürste - verwaltet den aktuellen Zustand

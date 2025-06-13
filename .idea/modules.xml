@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.iml" filepath="$PROJECT_DIR$/.idea/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.main.iml" filepath="$PROJECT_DIR$/.idea/modules/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.test.iml" filepath="$PROJECT_DIR$/.idea/modules/KI-B-4-Software-Engineering-Zahnputzmaschine-Putzintensit-t.test.iml" />
     </modules>
   </component>
 </project>

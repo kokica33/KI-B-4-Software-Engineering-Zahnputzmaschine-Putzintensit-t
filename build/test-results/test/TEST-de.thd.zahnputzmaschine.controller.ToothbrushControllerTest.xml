@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.thd.zahnputzmaschine.controller.ToothbrushControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-13T14:24:38" hostname="10NV26OP" time="0.083">
+  <properties/>
+  <testcase name="testInitialState()" classname="de.thd.zahnputzmaschine.controller.ToothbrushControllerTest" time="0.083"/>
+  <system-out><![CDATA[[16:24:38] ToothbrushController - Initializing ToothbrushController
+[16:24:38] IdleState - === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
