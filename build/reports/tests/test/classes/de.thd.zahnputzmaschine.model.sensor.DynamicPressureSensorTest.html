@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DynamicPressureSensorTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DynamicPressureSensorTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.thd.zahnputzmaschine.model.sensor.html">de.thd.zahnputzmaschine.model.sensor</a> &gt; DynamicPressureSensorTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.019s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBoundaryValuesWithDynamicThresholds()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGentleModeThresholds()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIntenseModeThresholds()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalModeThresholds()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOffModeThresholds()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStatusStringWithModes()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThresholdTransitions()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.0 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
+[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer NORMAL-Modus bei 3.5 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 5.5 N
+[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer NORMAL-Modus bei 5.5 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 4.0 N
+[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer GENTLE-Modus bei 4.0 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 6.5 N
+[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer GENTLE-Modus bei 6.5 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 1.5 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.0 N
+[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer INTENSE-Modus bei 2.0 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
+[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 3.5 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.6 N
+[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer GENTLE-Modus bei 3.6 N!
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.59 N
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
+[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.6 N
+[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 3.6 N!
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2</a> at 18 Jun 2025, 01:36:41</p>
+</div>
+</div>
+</body>
+</html>
