@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - HardwareIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>HardwareIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/de.thd.zahnputzmaschine.integration.html">de.thd.zahnputzmaschine.integration</a> &gt; HardwareIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">4</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.865s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">42%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testAutomaticIntensityAdjustment()"></a>
+<h3 class="failures">Automatische IntensitÃ¤tsanpassung bei verschiedenen DrÃ¼cken</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: Normaler Druck sollte zwischen 1-3 Newton liegen ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at app//de.thd.zahnputzmaschine.integration.HardwareIntegrationTest.testAutomaticIntensityAdjustment(HardwareIntegrationTest.java:57)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testCompleteBrushingCycle()"></a>
+<h3 class="failures">VollstÃ¤ndiger Putzzyklus mit allen Features</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;5913&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:528)
+	at app//de.thd.zahnputzmaschine.integration.HardwareIntegrationTest.testCompleteBrushingCycle(HardwareIntegrationTest.java:283)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testMotorInertiaSimulation()"></a>
+<h3 class="failures">Motor-TrÃ¤gheit bei GeschwindigkeitsÃ¤nderungen</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: Motor sollte beim Stoppen abbremsen ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at app//de.thd.zahnputzmaschine.integration.HardwareIntegrationTest.testMotorInertiaSimulation(HardwareIntegrationTest.java:218)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="testMotorIntensityModes()"></a>
+<h3 class="failures">Motor passt sich an verschiedene IntensitÃ¤tsstufen an</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: GENTLE Modus sollte ca. 4000 RPM haben ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at app//de.thd.zahnputzmaschine.integration.HardwareIntegrationTest.testMotorIntensityModes(HardwareIntegrationTest.java:87)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@17.0.8.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.8.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.8.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.8.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Automatische IntensitÃ¤tsanpassung bei verschiedenen DrÃ¼cken</td>
+<td class="failures">testAutomaticIntensityAdjustment()</td>
+<td class="failures">0.345s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">VollstÃ¤ndiger Putzzyklus mit allen Features</td>
+<td class="failures">testCompleteBrushingCycle()</td>
+<td class="failures">1.230s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Motor-TrÃ¤gheit bei GeschwindigkeitsÃ¤nderungen</td>
+<td class="failures">testMotorInertiaSimulation()</td>
+<td class="failures">0.713s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Motor passt sich an verschiedene IntensitÃ¤tsstufen an</td>
+<td class="failures">testMotorIntensityModes()</td>
+<td class="failures">0.349s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Echtzeit-Datenerfassung fÃ¼r Visualisierung</td>
+<td class="success">testRealtimeDataCollection()</td>
+<td class="success">1.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Sensor-StabilitÃ¤t und RauschunterdrÃ¼ckung</td>
+<td class="success">testSensorStability()</td>
+<td class="success">1.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Vibrations-Warnung bei kritischem Druck</td>
+<td class="success">testVibrationWarningFeedback()</td>
+<td class="success">0.141s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2025-06-20 22:41:49] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Button pressed in state: IdleState
+[2025-06-20 22:41:49] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+[2025-06-20 22:41:49] [INFO] [IdleState] Leaving IDLE state
+[2025-06-20 22:41:49] [INFO] [IdleState] === Entering GENTLE mode ===
+ZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: GENTLE
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+[2025-06-20 22:41:49] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Normaler Benutzer
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.19471164791663648
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.3149206201674338
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.296639490001029
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.7042845554415823
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.8288852767407482
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.0
+[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+[2025-06-20 22:41:49] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Button pressed in state: IdleState
+[2025-06-20 22:41:49] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+[2025-06-20 22:41:49] [INFO] [IdleState] Leaving IDLE state
+[2025-06-20 22:41:49] [INFO] [IdleState] === Entering GENTLE mode ===
+ZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: GENTLE
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+[2025-06-20 22:41:49] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:49] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+[2025-06-20 22:41:50] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:50] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] Button pressed in state: IdleState
+[2025-06-20 22:41:50] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+[2025-06-20 22:41:50] [INFO] [IdleState] Leaving IDLE state
+[2025-06-20 22:41:50] [INFO] [IdleState] === Entering GENTLE mode ===
+ZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: GENTLE
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+[2025-06-20 22:41:50] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:50] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[2025-06-20 22:41:50] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Variabler Benutzer
+[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Motor gestartet: NORMAL (6500 RPM)
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.0
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.13931534597780426
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.6820380584832433
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.1957288087195654
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.9603930621281076
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.628804708332069
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.930797412172543
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.5956319251024849
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.6306225295996137
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.033549570805635
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.7638245004971784
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.2063244170528737
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.4879972385205393
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.1010001160537684
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.459707278952485
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.803124535515602
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.5799711793830937
+[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.77990282753701
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.9227818294027978
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.34214439603462665
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.6928265594969347
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.0
+[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+[2025-06-20 22:41:51] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: IdleState
+[2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+[2025-06-20 22:41:51] [INFO] [IdleState] Leaving IDLE state
+[2025-06-20 22:41:51] [INFO] [IdleState] === Entering GENTLE mode ===
+ZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: GENTLE
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: GentleState
+[2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
+[2025-06-20 22:41:51] [INFO] [IdleState] Leaving GENTLE state
+[2025-06-20 22:41:51] [INFO] [IdleState] === Entering NORMAL mode ===
+ZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
+LED: Blau
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: NORMAL
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from GentleState to NormalState
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: NormalState
+[2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
+[2025-06-20 22:41:51] [INFO] [IdleState] Leaving NORMAL state
+[2025-06-20 22:41:51] [INFO] [IdleState] === Entering INTENSE mode ===
+ZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
+LED: Rot
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: INTENSE
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 2.0999999999999996 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 3.5 N
+[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor gestartet: INTENSE (9000 RPM)
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: INTENSE
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 4.0
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Warn-Vibration ausgelÃ¶st
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+[2025-06-20 22:41:51] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:51] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor gestartet: NORMAL (6500 RPM)
+[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+[2025-06-20 22:41:52] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:52] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:52] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:52] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:52] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:52] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:52] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:52] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:52] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Sanfter Benutzer
+[2025-06-20 22:41:52] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.07564291306095677
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.22085764437925787
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.21884682745620385
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.6099082429543863
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.6271595779164408
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.772266071890971
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.852343059776105
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.8230514322440567
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.2524577103942536
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4927784509460336
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4448769246885302
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5627153688683044
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.6233479705140628
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4852405898693959
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.440893392762207
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5342636696342957
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5852091925747218
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5709350523319787
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4208767888713927
+[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4181367750330363
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.4936285821027833
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.0
+[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+[2025-06-20 22:41:53] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Drucksensor kalibriert
+[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Button pressed in state: IdleState
+[2025-06-20 22:41:53] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+[2025-06-20 22:41:53] [INFO] [IdleState] Leaving IDLE state
+[2025-06-20 22:41:53] [INFO] [IdleState] === Entering GENTLE mode ===
+ZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: GENTLE
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+[2025-06-20 22:41:53] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Realistisch
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.3592304323170403
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.5599250765194939
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.7961231021026106
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.1768700622492025
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.331016223645583
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6679552618130309
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6742787059144706
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.831219491817679
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 2.0629435504827303
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.8527604684755008
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.719691403612934
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Button pressed in state: GentleState
+[2025-06-20 22:41:53] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
+[2025-06-20 22:41:53] [INFO] [IdleState] Leaving GENTLE state
+[2025-06-20 22:41:53] [INFO] [IdleState] === Entering NORMAL mode ===
+ZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
+LED: Blau
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: NORMAL
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:53] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:53] [INFO] [ToothbrushController] State changed from GentleState to NormalState
+[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor-IntensitÃ¤t geÃ¤ndert: NORMAL (6500 RPM)
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.7799203567648998
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.791903867377377
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.5500067030565763
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.626430516893945
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.5581966276697572
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.493600117785977
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.514781264788236
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6036464484105768
+[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.4856341000449358
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 1.719427834721605
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 4.5
+[2025-06-20 22:41:54] [INFO] [EnhancedMotorController] Warn-Vibration ausgelÃ¶st
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 4.163054371232284
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.6919938346678247
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.5539744301588176
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.2859640880588183
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] Button pressed in state: NormalState
+[2025-06-20 22:41:54] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
+[2025-06-20 22:41:54] [INFO] [IdleState] Leaving NORMAL state
+[2025-06-20 22:41:54] [INFO] [IdleState] === Entering INTENSE mode ===
+ZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
+LED: Rot
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Intensity updated to: INTENSE
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
+[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Warnung bei: 2.0999999999999996 N
+[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Kritisch bei: 3.5 N
+[2025-06-20 22:41:54] [INFO] [WarningSystem] Warnsystem aktiviert
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] Button pressed in state: IntenseState
+[2025-06-20 22:41:54] [INFO] [IdleState] Button pressed in INTENSE state - switching to OFF
+[2025-06-20 22:41:54] [INFO] [IdleState] Leaving INTENSE state
+[2025-06-20 22:41:54] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Intensity updated to: OFF
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+[2025-06-20 22:41:54] [INFO] [WarningSystem] Warnsystem deaktiviert
+[2025-06-20 22:41:54] [INFO] [ToothbrushController] State changed from IntenseState to IdleState
+[2025-06-20 22:41:54] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 0.0
+[2025-06-20 22:41:54] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2</a> at 20 Jun 2025, 22:41:54</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,285 +1,300 @@
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+N[2025-06-20 22:41:49] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
 ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.2 N
-Q[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer OFF-Modus bei 3.2 N!
-X[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IdleState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
-=[2025-06-18 01:36:40] [INFO] [IdleState] Leaving IDLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering GENTLE mode ===
-CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
-LED: GrÃ¼n
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IdleState to GentleState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.2 N
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: GentleState
-_[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving GENTLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering NORMAL mode ===
-DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
-LED: Blau
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-c[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from GentleState to NormalState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.2 N
-T[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer NORMAL-Modus bei 3.2 N!
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: NormalState
-`[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving NORMAL state
-H[2025-06-18 01:36:40] [INFO] [IdleState] === Entering INTENSE mode ===
-FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
-
+I[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:49] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:49] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+X[2025-06-20 22:41:49] [INFO] [ToothbrushController] Button pressed in state: IdleState
+][2025-06-20 22:41:49] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+=[2025-06-20 22:41:49] [INFO] [IdleState] Leaving IDLE state
+G[2025-06-20 22:41:49] [INFO] [IdleState] === Entering GENTLE mode ===
+CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+L[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: GENTLE
+`[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+M[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+C[2025-06-20 22:41:49] [INFO] [WarningSystem] Warnsystem aktiviert
+a[2025-06-20 22:41:49] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+d[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Normaler Benutzer
+W[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.19471164791663648
+V[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.3149206201674338
+U[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.296639490001029
+V[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.7042845554415823
+V[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.8288852767407482
+G[2025-06-20 22:41:49] [INFO] [PressureSensor] Simulated pressure: 0.0
+P[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+N[2025-06-20 22:41:49] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:49] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:49] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:49] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+X[2025-06-20 22:41:49] [INFO] [ToothbrushController] Button pressed in state: IdleState
+][2025-06-20 22:41:49] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+=[2025-06-20 22:41:49] [INFO] [IdleState] Leaving IDLE state
+G[2025-06-20 22:41:49] [INFO] [IdleState] === Entering GENTLE mode ===
+CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+L[2025-06-20 22:41:49] [INFO] [PressureSensor] Intensity updated to: GENTLE
+`[2025-06-20 22:41:49] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+M[2025-06-20 22:41:49] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+C[2025-06-20 22:41:49] [INFO] [WarningSystem] Warnsystem aktiviert
+a[2025-06-20 22:41:49] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[[2025-06-20 22:41:49] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+j[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+N[2025-06-20 22:41:50] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:50] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:50] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:50] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:50] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+X[2025-06-20 22:41:50] [INFO] [ToothbrushController] Button pressed in state: IdleState
+][2025-06-20 22:41:50] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+=[2025-06-20 22:41:50] [INFO] [IdleState] Leaving IDLE state
+G[2025-06-20 22:41:50] [INFO] [IdleState] === Entering GENTLE mode ===
+CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+L[2025-06-20 22:41:50] [INFO] [PressureSensor] Intensity updated to: GENTLE
+`[2025-06-20 22:41:50] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+M[2025-06-20 22:41:50] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+C[2025-06-20 22:41:50] [INFO] [WarningSystem] Warnsystem aktiviert
+a[2025-06-20 22:41:50] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+e[2025-06-20 22:41:50] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Variabler Benutzer
+[[2025-06-20 22:41:50] [INFO] [EnhancedMotorController] Motor gestartet: NORMAL (6500 RPM)
+G[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.0
+W[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.13931534597780426
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.6820380584832433
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.1957288087195654
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.9603930621281076
+U[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.628804708332069
+U[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 0.930797412172543
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.5956319251024849
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.6306225295996137
+U[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.033549570805635
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.7638245004971784
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.2063244170528737
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.4879972385205393
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.1010001160537684
+U[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.459707278952485
+U[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.803124535515602
+V[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 2.5799711793830937
+T[2025-06-20 22:41:50] [INFO] [PressureSensor] Simulated pressure: 1.77990282753701
+V[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.9227818294027978
+W[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.34214439603462665
+V[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.6928265594969347
+G[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 0.0
+P[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+j[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+N[2025-06-20 22:41:51] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:51] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:51] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+X[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: IdleState
+][2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+=[2025-06-20 22:41:51] [INFO] [IdleState] Leaving IDLE state
+G[2025-06-20 22:41:51] [INFO] [IdleState] === Entering GENTLE mode ===
+CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+L[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: GENTLE
+`[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+M[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+C[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+a[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+Z[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: GentleState
+_[2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
+?[2025-06-20 22:41:51] [INFO] [IdleState] Leaving GENTLE state
+G[2025-06-20 22:41:51] [INFO] [IdleState] === Entering NORMAL mode ===
+DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
+LED: Blau
+L[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: NORMAL
+`[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
+L[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+C[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+c[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from GentleState to NormalState
+Z[2025-06-20 22:41:51] [INFO] [ToothbrushController] Button pressed in state: NormalState
+`[2025-06-20 22:41:51] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
+?[2025-06-20 22:41:51] [INFO] [IdleState] Leaving NORMAL state
+H[2025-06-20 22:41:51] [INFO] [IdleState] === Entering INTENSE mode ===
+FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
+
 LED: Rot
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 1.7999999999999998 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 3.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-d[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.2 N
-W[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 3.2 N!
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IntenseState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in INTENSE state - switching to OFF
-@[2025-06-18 01:36:40] [INFO] [IdleState] Leaving INTENSE state
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-^[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: OFF
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-E[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem deaktiviert
-b[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IntenseState to IdleState
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-X[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IdleState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
-=[2025-06-18 01:36:40] [INFO] [IdleState] Leaving IDLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering GENTLE mode ===
-CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
-LED: GrÃ¼n
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IdleState to GentleState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: GentleState
-_[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving GENTLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering NORMAL mode ===
-DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
-LED: Blau
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-c[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from GentleState to NormalState
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: NormalState
-`[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving NORMAL state
-H[2025-06-18 01:36:40] [INFO] [IdleState] === Entering INTENSE mode ===
-FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
-
+M[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: INTENSE
+a[2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
+[[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 2.0999999999999996 N
+M[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 3.5 N
+C[2025-06-20 22:41:51] [INFO] [WarningSystem] Warnsystem aktiviert
+d[2025-06-20 22:41:51] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
+\[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor gestartet: INTENSE (9000 RPM)
+M[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: INTENSE
+G[2025-06-20 22:41:51] [INFO] [PressureSensor] Simulated pressure: 4.0
+T[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Warn-Vibration ausgelÃ¶st
+j[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+N[2025-06-20 22:41:51] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:51] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:51] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:51] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:51] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:51] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:51] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+[[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor gestartet: NORMAL (6500 RPM)
+j[2025-06-20 22:41:51] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 0 Sekunden
+N[2025-06-20 22:41:52] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:52] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:52] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:52] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:52] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:52] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:52] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:52] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:52] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:52] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+c[2025-06-20 22:41:52] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Sanfter Benutzer
+[[2025-06-20 22:41:52] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+W[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.07564291306095677
+W[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.22085764437925787
+W[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.21884682745620385
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.6099082429543863
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.6271595779164408
+U[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.772266071890971
+U[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.852343059776105
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 0.8230514322440567
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.2524577103942536
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4927784509460336
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4448769246885302
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5627153688683044
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.6233479705140628
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4852405898693959
+U[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.440893392762207
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5342636696342957
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5852091925747218
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.5709350523319787
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4208767888713927
+V[2025-06-20 22:41:52] [INFO] [PressureSensor] Simulated pressure: 1.4181367750330363
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.4936285821027833
+G[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.0
+P[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt
+j[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+N[2025-06-20 22:41:53] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: OFF
+I[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+j[2025-06-20 22:41:53] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
+L[2025-06-20 22:41:53] [INFO] [ToothbrushController] Drucksensor kalibriert
+p[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Enhanced PressureSensor fÃ¼r Iteration 3 initialisiert
+_[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Enhanced MotorController initialisiert
+X[2025-06-20 22:41:53] [INFO] [ToothbrushController] Button pressed in state: IdleState
+][2025-06-20 22:41:53] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
+=[2025-06-20 22:41:53] [INFO] [IdleState] Leaving IDLE state
+G[2025-06-20 22:41:53] [INFO] [IdleState] === Entering GENTLE mode ===
+CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
+LED: GrÃ¼n
+L[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: GENTLE
+`[2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
+[[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
+M[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
+C[2025-06-20 22:41:53] [INFO] [WarningSystem] Warnsystem aktiviert
+a[2025-06-20 22:41:53] [INFO] [ToothbrushController] State changed from IdleState to GentleState
+[[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor gestartet: GENTLE (4000 RPM)
+^[2025-06-20 22:41:53] [INFO] [EnhancedPressureSensor] Drucksimulation gestartet: Realistisch
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.3592304323170403
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.5599250765194939
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 0.7961231021026106
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.1768700622492025
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.331016223645583
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6679552618130309
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6742787059144706
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.831219491817679
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 2.0629435504827303
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.8527604684755008
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.719691403612934
+Z[2025-06-20 22:41:53] [INFO] [ToothbrushController] Button pressed in state: GentleState
+_[2025-06-20 22:41:53] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
+?[2025-06-20 22:41:53] [INFO] [IdleState] Leaving GENTLE state
+G[2025-06-20 22:41:53] [INFO] [IdleState] === Entering NORMAL mode ===
+DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
+LED: Blau
+L[2025-06-20 22:41:53] [INFO] [PressureSensor] Intensity updated to: NORMAL
+`[2025-06-20 22:41:53] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
+L[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:53] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+C[2025-06-20 22:41:53] [INFO] [WarningSystem] Warnsystem aktiviert
+c[2025-06-20 22:41:53] [INFO] [ToothbrushController] State changed from GentleState to NormalState
+k[2025-06-20 22:41:53] [INFO] [EnhancedMotorController] Motor-IntensitÃ¤t geÃ¤ndert: NORMAL (6500 RPM)
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.7799203567648998
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.791903867377377
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.5500067030565763
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.626430516893945
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.5581966276697572
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.493600117785977
+U[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.514781264788236
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.6036464484105768
+V[2025-06-20 22:41:53] [INFO] [PressureSensor] Simulated pressure: 1.4856341000449358
+U[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 1.719427834721605
+G[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 4.5
+T[2025-06-20 22:41:54] [INFO] [EnhancedMotorController] Warn-Vibration ausgelÃ¶st
+U[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 4.163054371232284
+V[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.6919938346678247
+V[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.5539744301588176
+V[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 3.2859640880588183
+Z[2025-06-20 22:41:54] [INFO] [ToothbrushController] Button pressed in state: NormalState
+`[2025-06-20 22:41:54] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
+?[2025-06-20 22:41:54] [INFO] [IdleState] Leaving NORMAL state
+H[2025-06-20 22:41:54] [INFO] [IdleState] === Entering INTENSE mode ===
+FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
+
 LED: Rot
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 1.7999999999999998 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 3.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-d[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
-U[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer INTENSE-Modus bei 2.5 N!
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-X[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IdleState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
-=[2025-06-18 01:36:40] [INFO] [IdleState] Leaving IDLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering GENTLE mode ===
-CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
-LED: GrÃ¼n
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IdleState to GentleState
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-X[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IdleState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
-=[2025-06-18 01:36:40] [INFO] [IdleState] Leaving IDLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering GENTLE mode ===
-CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
-LED: GrÃ¼n
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IdleState to GentleState
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: GentleState
-_[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving GENTLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering NORMAL mode ===
-DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
-LED: Blau
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-c[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from GentleState to NormalState
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: NormalState
-`[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving NORMAL state
-H[2025-06-18 01:36:40] [INFO] [IdleState] === Entering INTENSE mode ===
-FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
-
-LED: Rot
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 1.7999999999999998 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 3.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-d[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
-N[2025-06-18 01:36:40] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
-ZahnbÃ¼rste ausgeschaltet
-][2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-j[2025-06-18 01:36:40] [INFO] [ToothbrushController] ToothbrushController mit Sensor-System initialisiert
-X[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: IdleState
-][2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in IDLE state - switching to GENTLE
-=[2025-06-18 01:36:40] [INFO] [IdleState] Leaving IDLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering GENTLE mode ===
-CZahnbÃ¼rste lÃ¤uft im SANFTEN Modus (15.000 Schwingungen/min)
-LED: GrÃ¼n
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r GENTLE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.5999999999999996 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 6.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from IdleState to GentleState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 5.0 N
-T[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer GENTLE-Modus bei 5.0 N!
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: GentleState
-_[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in GENTLE state - switching to NORMAL
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving GENTLE state
-G[2025-06-18 01:36:40] [INFO] [IdleState] === Entering NORMAL mode ===
-DZahnbÃ¼rste lÃ¤uft im NORMALEN Modus (25.000 Schwingungen/min)
-LED: Blau
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-`[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r NORMAL:
-L[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-c[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from GentleState to NormalState
-Z[2025-06-18 01:36:40] [INFO] [ToothbrushController] Button pressed in state: NormalState
-`[2025-06-18 01:36:40] [INFO] [IdleState] Button pressed in NORMAL state - switching to INTENSE
-?[2025-06-18 01:36:40] [INFO] [IdleState] Leaving NORMAL state
-H[2025-06-18 01:36:40] [INFO] [IdleState] === Entering INTENSE mode ===
-FZahnbÃ¼rste lÃ¤uft im INTENSIVEN Modus (35.000 Schwingungen/min)
-
-LED: Rot
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-a[2025-06-18 01:36:40] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
-[[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Warnung bei: 1.7999999999999998 N
-M[2025-06-18 01:36:40] [INFO] [ToothbrushController]   - Kritisch bei: 3.0 N
-C[2025-06-18 01:36:40] [INFO] [WarningSystem] Warnsystem aktiviert
-d[2025-06-18 01:36:40] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 5.0 N
-W[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 5.0 N!
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.0 N
-
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: NORMAL
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.5 N
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
-
-T[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer NORMAL-Modus bei 3.5 N!
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 5.5 N
-
-V[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer NORMAL-Modus bei 5.5 N!
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 4.0 N
-
-T[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer GENTLE-Modus bei 4.0 N!
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 6.5 N
-
-V[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer GENTLE-Modus bei 6.5 N!
-
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 1.5 N
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 2.0 N
-
-U[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer INTENSE-Modus bei 2.0 N!
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.5 N
-
-W[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 3.5 N!
-
-a[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: GENTLE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.6 N
-
-T[2025-06-18 01:36:40] [WARN] [PressureSensor] Warnung fuer GENTLE-Modus bei 3.6 N!
-
-G[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.59 N
-
-b[2025-06-18 01:36:40] [INFO] [PressureSensor] Druckschwellen angepasst fuer Intensitaet: INTENSE
-
-F[2025-06-18 01:36:40] [INFO] [PressureSensor] Druck simuliert: 3.6 N
-
-W[2025-06-18 01:36:40] [ERROR] [PressureSensor] Kritisch fuer INTENSE-Modus bei 3.6 N!
+M[2025-06-20 22:41:54] [INFO] [PressureSensor] Intensity updated to: INTENSE
+a[2025-06-20 22:41:54] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r INTENSE:
+[[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Warnung bei: 2.0999999999999996 N
+M[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Kritisch bei: 3.5 N
+C[2025-06-20 22:41:54] [INFO] [WarningSystem] Warnsystem aktiviert
+d[2025-06-20 22:41:54] [INFO] [ToothbrushController] State changed from NormalState to IntenseState
+[[2025-06-20 22:41:54] [INFO] [ToothbrushController] Button pressed in state: IntenseState
+][2025-06-20 22:41:54] [INFO] [IdleState] Button pressed in INTENSE state - switching to OFF
+@[2025-06-20 22:41:54] [INFO] [IdleState] Leaving INTENSE state
+N[2025-06-20 22:41:54] [INFO] [IdleState] === ZahnbÃ¼rste AUSGESCHALTET ===
+ZahnbÃ¼rste ausgeschaltet
+I[2025-06-20 22:41:54] [INFO] [PressureSensor] Intensity updated to: OFF
+][2025-06-20 22:41:54] [INFO] [ToothbrushController] Druckschwellen aktualisiert fÃ¼r OFF:
+L[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Warnung bei: 3.0 N
+M[2025-06-20 22:41:54] [INFO] [ToothbrushController]   - Kritisch bei: 5.0 N
+E[2025-06-20 22:41:54] [INFO] [WarningSystem] Warnsystem deaktiviert
+b[2025-06-20 22:41:54] [INFO] [ToothbrushController] State changed from IntenseState to IdleState
+j[2025-06-20 22:41:54] [INFO] [EnhancedMotorController] Motor wird gestoppt. Session-Laufzeit: 1 Sekunden
+G[2025-06-20 22:41:54] [INFO] [PressureSensor] Simulated pressure: 0.0
+P[2025-06-20 22:41:54] [INFO] [EnhancedPressureSensor] Drucksimulation gestoppt

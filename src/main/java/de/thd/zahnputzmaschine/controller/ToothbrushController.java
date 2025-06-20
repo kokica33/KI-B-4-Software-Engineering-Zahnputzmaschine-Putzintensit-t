@@ -61,6 +61,9 @@ public class ToothbrushController {
         logger.info("  - Warnung bei: " + pressureSensor.getWarningThreshold() + " N");
         logger.info("  - Kritisch bei: " + pressureSensor.getCriticalThreshold() + " N");
         logger.info("ToothbrushController mit Sensor-System initialisiert");
+
+        pressureSensor.calibrate(); // Sensor beim Start kalibrieren
+        logger.info("Drucksensor kalibriert");
     }
 
     /**
@@ -262,4 +265,15 @@ public class ToothbrushController {
     public boolean isEmergencyShutdownEnabled() {
         return emergencyShutdownEnabled;
     }
+
+    public void setIntensity(IntensityLevel level) {
+        BrushState newState = switch (level) {
+            case OFF -> new IdleState();
+            case GENTLE -> new GentleState();
+            case NORMAL -> new NormalState();
+            case INTENSE -> new IntenseState();
+        };
+        setState(newState);
+    }
+
 }
