@@ -17,7 +17,7 @@ Dieses Projekt implementiert eine intelligente Steuerung für die Putzintensitä
 
 ## Entwicklungsumgebung
 - Java 17
-- Maven/Gradle
+- Gradle
 - PlantUML für Diagramme
 
 ## Iterationen
