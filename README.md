@@ -17,14 +17,13 @@ Dieses Projekt implementiert eine intelligente Steuerung für die Putzintensitä
 
 ## Entwicklungsumgebung
 - Java 17
-- Maven/Gradle
+- Gradle
 - PlantUML für Diagramme
 
 ## Iterationen
 - [x] Iteration 1: Grundfunktionalität (State Machine)
-- [ ] Iteration 2: Drucksensor-Integration
-- [ ] Iteration 3: Timer und erweiterte Features
-- [ ] Iteration 4: GUI und Statistiken
+- [x] Iteration 2: Drucksensor-Integration
+- [x] Iteration 3: Timer und erweiterte Features (UI und Statistiken)
 
 ## Installation & Ausführung
 ```bash
@@ -100,11 +99,11 @@ Diese Matrix zeigt die Nachverfolgbarkeit von Requirements über Design, Impleme
 | RF-003 | Zyklisches Durchschalten | Hoch | State Pattern Implementation | handle() in allen States | TC-006 | ✅ | 1 |
 | RF-004 | LED-Statusanzeige | Mittel | BrushState.enter() | Konsolen-Output (simuliert) | TC-007 | ✅ | 1 |
 | RF-005 | Automatisches Ausschalten | Mittel | IdleState | setState() zu IdleState | TC-008 | ✅ | 1 |
-| RF-006 | Drucksensor-Integration | Hoch | PressureSensor (geplant) | - | TC-009, TC-010 | ❌ | 2 |
-| RF-007 | Druckwarnung LED | Mittel | WarningSystem (geplant) | - | TC-011 | ❌ | 2 |
-| RF-008 | Putzzeit-Timer | Mittel | BrushTimer (geplant) | - | TC-012, TC-013 | ❌ | 3 |
-| RF-009 | 30-Sekunden-Intervalle | Niedrig | IntervalNotifier (geplant) | - | TC-014 | ❌ | 3 |
-| RF-010 | Statistik-Erfassung | Niedrig | StatisticsCollector (geplant) | - | TC-015 | ❌ | 4 |
+| RF-006 | Drucksensor-Integration | Hoch | PressureSensor (geplant) | - | TC-009, TC-010 | ✅ | 2 |
+| RF-007 | Druckwarnung LED | Mittel | WarningSystem (geplant) | - | TC-011 | ✅ | 2 |
+| RF-008 | Putzzeit-Timer | Mittel | BrushTimer (geplant) | - | TC-012, TC-013 | ✅ | 3 |
+| RF-009 | 30-Sekunden-Intervalle | Niedrig | IntervalNotifier (geplant) | - | TC-014 | ✅ | 3 |
+| RF-010 | Statistik-Erfassung | Niedrig | StatisticsCollector (geplant) | - | TC-015 | ✅ | 4 |
 
 ## Nicht-funktionale Requirements
 
